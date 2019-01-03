@@ -5,9 +5,9 @@ def valid_move?(num)
     return TRUE
   else
     return FALSE
-    
   end
 end
+
 def position_taken?(board,index)
   
 if(board[index]==" " || board[index]=="")
@@ -17,5 +17,5 @@ return TRUE#takes
 else
   return FALSE #if array is nil 
 end
-
+end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
