@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 
-def valid_move?(num)
+def valid_move?board,num)
   if num>=0 && num<=8 && position_taken?(board,num)==FALSE
     return TRUE
   else
